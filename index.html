@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>    
+    <link rel="stylesheet" href="style.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="topnav">
+          
+            <p class="appname">Movie App</p>
+            <select name="filter" id="filterby" onchange="filterfunc()">
+                <option value="default">Filter By</option>
+                <option value="Action">Action Movies</option>
+                <option value="Horror">Horror Movies</option>
+                <option value="Romance">Romance Movies</option>
+                <option value="Comedy">Comedy Movies</option>
+              </select>
+              <select name="sort" id="sortby" onchange="sortfunc()">
+                <option  selected value="Date">Sort By</option>
+                <option value="Title">Title</option>
+                <option value="Rating">Rating</option>
+                <option value="Date">Date</option>
+              </select>
+            <div class="search-container">
+          
+                <input type="text" id="searchval" placeholder="Search.." name="search" onchange="searching()">
+                <button onclick="searchmovie()"><i class="fa fa-search fa-lg" onclick="searchmovie()"></i></button>
+             
+            </div>
+        </div>
+        
+        <div class="gallery"id="gallery_id">
+            
+        </div>
+<button class="button2" onclick="pageload('pgload')">Load more...</button>
+    </div>
+
+    <script src="script.js"> 
+ </script>
+</body>
+</html>
