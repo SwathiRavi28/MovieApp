@@ -1,4 +1,4 @@
-const TMDB_API_KEY = '303e2885ccc98cd8550ba79f3d2692d7';
+const TMDB_API_KEY = "ENTER UR APIKEY";
 const baseUrl = 'https://image.tmdb.org/t/p/original/';
 const popularmoviesurl=`https://api.themoviedb.org/3/movie/popular?api_key=${TMDB_API_KEY}&language=en-US`
 const fetchActionMovies = `https://api.themoviedb.org/3/discover/movie?api_key=${TMDB_API_KEY}&with_genres=28`;
