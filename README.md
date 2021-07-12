@@ -2,7 +2,7 @@
 
 ##Movie Listing App made with HTML,CSS and Javascript
 
-[Live Site]https://app.netlify.com/sites/movieposter-listing-app/overview
+[Live Site](https://app.netlify.com/sites/movieposter-listing-app/overview)
 
 ##About
 Movie Listing App made with HTML,CSS and Javascript which fetches movie data of over 30 thousand movies from Tmdb api. 
