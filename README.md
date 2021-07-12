@@ -24,3 +24,5 @@ Features include a global searchbar,Filter and Sort.
 - Add paginations instead of load more which is implemented currently.
 - We can use node as a backend to interact with a server and user database to store user profiles and their wishes.
 
+## Author
+-Swathi Ravi
