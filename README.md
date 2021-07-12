@@ -25,4 +25,4 @@ Features include a global searchbar,Filter and Sort.
 - We can use node as a backend to interact with a server and user database to store user profiles and their wishes.
 
 ## Author
--Swathi Ravi
+- Swathi Ravi
