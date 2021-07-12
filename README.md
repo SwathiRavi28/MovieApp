@@ -3,7 +3,7 @@
 - **Movie Listing App made with HTML,CSS and Javascript.**
 
 ## Live site
-- [Link](https://app.netlify.com/sites/movieposter-listing-app/overview)
+- [Link](https://movieposter-listing-app.netlify.app)
 
 ## Video
 https://user-images.githubusercontent.com/68095540/125334249-c8ce4f80-e368-11eb-81bc-838ada6fb4a9.mp4
